@@ -26,7 +26,7 @@ a:hover{
 	width: 1000px;
 	margin: 0 auto;
 	height: 44px;
-	background: url("../images/menu.png") no-repeat 0 -1px;
+	background: url("../images/menu.PNG") no-repeat 0 -1px;
 }
 .image-text-container {
 	position: relative;
