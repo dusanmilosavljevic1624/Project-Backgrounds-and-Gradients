@@ -11,8 +11,19 @@ a {
 	color: rgb(0, 136, 204);
 	text-decoration: none;
 }
-a:hover{
+a:hover {
 	text-decoration: underline;
+}
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
 }
 .hero {
 	height: 650px;
@@ -56,10 +67,10 @@ a:hover{
 	margin-top: 10px;
 	margin-right: 30px;
 }
-.image-text-container a:hover{
+.image-text-container a:hover {
 	text-decoration: underline;
 }
-.image-text-container a:first-child{
+.image-text-container a:first-child {
 	margin-left: 20px;
 }
 .image-text-container a:last-child {
@@ -71,10 +82,14 @@ a:hover{
 .promos {
 	height: 202px;
 }
+.promos-container {}
 .promo {
 	height: 200px;
-	width: 333.9px;
+	width: 25%;
 	display: inline-block;
+}
+.promo:last-child {
+	margin-right: 0;
 }
 .promo#promo1 {
 	background: url("../images/promo1.jpg") no-repeat 50% 50%;
@@ -185,12 +200,12 @@ a:hover{
 	font-size: 10px;
 	margin-right: 20px;
 }
-.flag{
+.flag {
 	border-radius: 50%;
 	position: relative;
 	top: 4px;
 }
-.footer-bottom-list li:last-child{
+.footer-bottom-list li:last-child {
 	position: relative;
 	right: -25%;
 	border-right: 0;
